@@ -56,9 +56,9 @@ An environment for using require.js with jst, unofficially forked from [https://
 
 3. Check the browser's network tab and see that all javascripts have been compressed into 3.
 
-    - /www-built/js/lib/require.js
-    - /www-built/js/common.js
-    - /www-built/js/app/main1.js
+		- /www-built/js/lib/require.js
+		- /www-built/js/common.js
+		- /www-built/js/app/main1.js
     
 ******************
 
