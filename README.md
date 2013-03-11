@@ -23,19 +23,19 @@ An environment for using require.js with jst, unofficially forked from [https://
 
 3. Check the browser's network tab and see that all javascripts (from js folder and its children) are being loaded.
 
-    - /js/common.js
-    - /js/lib/require.js
-    - /js/lib/jquery.js
-    - /js/lib/text.js
-    - /js/lib/backbone.js
-    - /js/lib/underscore.js
-    - /js/lib/require/jst.js
-    - /js/controller/c1.js
-    - /js/model/m1.js
-    - /js/app/model/Base.js
-    - /js/app/controller/Base.js
-    - /js/app/main1.js
-    - /js/app/lib.js
+		- /js/common.js
+		- /js/lib/require.js
+		- /js/lib/jquery.js
+		- /js/lib/text.js
+		- /js/lib/backbone.js
+		- /js/lib/underscore.js
+		- /js/lib/require/jst.js
+		- /js/controller/c1.js
+		- /js/model/m1.js
+		- /js/app/model/Base.js
+		- /js/app/controller/Base.js
+		- /js/app/main1.js
+		- /js/app/lib.js
     
 ### B. Optimized version    
  
@@ -74,6 +74,6 @@ An environment for using require.js with jst, unofficially forked from [https://
 
 3. For some reason, build.js trying to build itself throws an error, but otherwise, rest of the files will be successfully compressed, resulting in the 3 js files mentioned above:
 
-    - /www-built/js/lib/require.js
-    - /www-built/js/common.js
-    - /www-built/js/app/main1.js
+		- /www-built/js/lib/require.js
+		- /www-built/js/common.js
+		- /www-built/js/app/main1.js
