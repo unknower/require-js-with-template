@@ -1,0 +1,1 @@
+define(["text","underscore"],function(e,t){var n=function(n,r,i,s){s.isBuild?e.get(r.toUrl(n),function(e){var n=t.template(e);i(n)}):r(["text!"+n],function(e){var n=t.template(e);i(n)})};return{load:n}});

@@ -1,0 +1,1 @@
+define(["./Base"],function(e){var t=new e("Model 1");return t});
