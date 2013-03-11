@@ -1,1 +1,1 @@
-define(["jst!template/temp.html"],function(e){function t(e){this.id=e}return t.prototype={setModel:function(e){this.model=e},render:function(t){t.append(e({v:this.model}))}},t});
+define(["jst!template/temp.jst"],function(e){function t(e){this.id=e}return t.prototype={setModel:function(e){this.model=e},render:function(t){t.append(e({v:this.model}))}},t});

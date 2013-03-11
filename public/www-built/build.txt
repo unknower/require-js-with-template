@@ -11,7 +11,7 @@ js/app/lib.js
 js/lib/text.js
 js/lib/underscore.js
 js/lib/require/jst.js
-jst!template/temp.html
+jst!template/temp.jst
 js/app/controller/Base.js
 js/app/model/Base.js
 
@@ -20,7 +20,7 @@ js/app/main1.js
 js/app/controller/c1.js
 js/app/model/m1.js
 js/lib/backbone.js
-jst!template/version.html
+jst!template/version.jst
 js/app/main1.js
 
 js/app/main2.js

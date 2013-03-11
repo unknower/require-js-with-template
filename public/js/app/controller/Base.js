@@ -1,4 +1,4 @@
-define(["jst!template/temp.html"], function (template) {
+define(["jst!template/temp.jst"], function (template) {
     function controllerBase(id) {
         this.id = id;
     }

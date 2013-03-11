@@ -5,7 +5,7 @@ define(function (require) {
         model = require('./model/m1'),
         backbone = require('backbone'),
         underscore = require('underscore'),
-		versionTemplate = require("jst!template/version.html");
+		versionTemplate = require("jst!template/version.jst");
 
     //A fabricated API to show interaction of
     //common and specific pieces.

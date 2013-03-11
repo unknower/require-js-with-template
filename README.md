@@ -1,7 +1,7 @@
 require-js-with-template
 ========================
 
-An environment for using require.js with jst, unofficially forked from [https://github.com/requirejs/example-multipage-shim](https://github.com/requirejs/example-multipage-shim)  
+An environment for using require.js with jst, unofficially forked from [https://github.com/requirejs/example-multipage-shim](https://github.com/requirejs/example-multipage-shim) This only modified the "page1" part of the original project.
 
 
 ## How to run
@@ -23,19 +23,19 @@ An environment for using require.js with jst, unofficially forked from [https://
 
 3. Check the browser's network tab and see that all javascripts (from js folder and its children) are being loaded.
 
-		- /js/common.js
-		- /js/lib/require.js
-		- /js/lib/jquery.js
-		- /js/lib/text.js
-		- /js/lib/backbone.js
-		- /js/lib/underscore.js
-		- /js/lib/require/jst.js
-		- /js/controller/c1.js
-		- /js/model/m1.js
-		- /js/app/model/Base.js
-		- /js/app/controller/Base.js
-		- /js/app/main1.js
-		- /js/app/lib.js
+		- /public/js/common.js
+		- /public/js/lib/require.js
+		- /public/js/lib/jquery.js
+		- /public/js/lib/text.js
+		- /public/js/lib/backbone.js
+		- /public/js/lib/underscore.js
+		- /public/js/lib/require/jst.js
+		- /public/js/controller/c1.js
+		- /public/js/model/m1.js
+		- /public/js/app/model/Base.js
+		- /public/js/app/controller/Base.js
+		- /public/js/app/main1.js
+		- /public/js/app/lib.js
     
 ### B. Optimized version    
  
@@ -56,9 +56,9 @@ An environment for using require.js with jst, unofficially forked from [https://
 
 3. Check the browser's network tab and see that all javascripts have been compressed into 3.
 
-		- /www-built/js/lib/require.js
-		- /www-built/js/common.js
-		- /www-built/js/app/main1.js
+		- /public/www-built/js/lib/require.js
+		- /public/www-built/js/common.js
+		- /public/www-built/js/app/main1.js
     
 ******************
 
@@ -74,6 +74,9 @@ An environment for using require.js with jst, unofficially forked from [https://
 
 3. For some reason, build.js trying to build itself throws an error, but otherwise, rest of the files will be successfully compressed, resulting in the 3 js files mentioned above:
 
-		- /www-built/js/lib/require.js
-		- /www-built/js/common.js
-		- /www-built/js/app/main1.js
+		- /public/www-built/js/lib/require.js
+		- /public/www-built/js/common.js
+		- /public/www-built/js/app/main1.js
+
+******************
+
