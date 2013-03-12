@@ -68,15 +68,17 @@ An environment for using require.js with jst, unofficially forked from [https://
 
         rm -rf www-built
 
-2. Run the optimize command
+2. Change the isBuild setting to true (inside common.js)
+
+3. Run the optimize command
 
         node tools/r.js -o tools/build.js
 
-3. For some reason, build.js trying to build itself throws an error, but otherwise, rest of the files will be successfully compressed, resulting in the 3 js files mentioned above:
+4. The files will be successfully compressed, resulting in the following 3 js files:
 
 		- /public/www-built/js/lib/require.js
 		- /public/www-built/js/common.js
 		- /public/www-built/js/app/main1.js
 
-******************
+5. Confirm that the templates are baked into the files (common.js and main1.js).
 

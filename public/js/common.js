@@ -21,5 +21,6 @@ requirejs.config({
             exports: '_'
         }
     },
-	isBuild: true
+	optimizeAllPluginResources: true,
+	isBuild: false
 });
